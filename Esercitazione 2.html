@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina registrazione music app</title>
+    <style> 
+    body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+        text-align: center;
+        background-color: #abdf75;}
+    input[type="text"], input[type="password"], input[type="date"], input[type="submit"] 
+    {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        width: 30%;
+        border: 1px solid #60695c;
+        border-radius: 4px;
+    }
+    .container {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+h1 {
+        color: #abdf75;
+    }
+   h3 {
+    font-weight: normal;
+    color: #60695c;
+}
+
+h4 {
+    color: #60695c;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    margin-top: 40px;
+}
+input[type="submit"]:hover 
+{
+    background-color: #d6f9dd;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <h1>La tua musica. Il tuo spazio.</h1>
+    <h3>Crea il tuo profilo e porta con te tutto quello che ami ascoltare.</h3>
+<h4> <i> Nuovi artisti, vecchie ossessioni e quella canzone che hai già messo 47 volte oggi.</i> </h4>
+<div> 
+    <input type="text" placeholder="Nome utente">
+    <input type="text" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <input type="password" placeholder="Conferma password">
+    <input type="date" placeholder="Data di nascita">
+    <input type="radio" name="genere" value="maschio"> Maschio 
+    <input type="radio" name="genere" value="femmina"> Femmina
+</div>
+ 
+<h4> Cosa finisce sempre nelle tue cuffie? </h4>
+ <div>
+    <input type="checkbox" name="genere musicale" value="pop"> Pop
+    <input type="checkbox" name="genere musicale" value="rock"> Rock
+    <input type="checkbox" name="genere musicale" value="rap"> Rap
+    <input type="checkbox" name="genere musicale" value="classica"> Classica
+    <input type="checkbox" name="genere musicale" value="jazz"> Jazz
+    <input type="checkbox" name="genere musicale" value="metal"> Metal
+    <input type="checkbox" name="genere" value="reggae"> Reggae
+ </div>
+<h4> Chi non può mancare nella tua playlist? </h4>
+
+<div>
+    <input type="checkbox" name="artista" value="taylor"> Taylor Swift
+    <input type="checkbox" name="artista" value="eminem"> Eminem
+    <input type="checkbox" name="artista" value="queen"> Queen
+    <input type="checkbox" name="artista" value="rihanna"> Rihanna
+    <input type="checkbox" name="artista" value="coldplay"> Coldplay
+    <input type="checkbox" name="artista" value="metallica"> Metallica
+    <input type="checkbox" name="artista" value="drake"> Drake
+    <input type="checkbox" name="artista" value="beyonce"> Beyoncé
+   
+</div>
+</div>
+
+<input type="submit" value="Registrati"> 
+    
+</body>
+</html>
